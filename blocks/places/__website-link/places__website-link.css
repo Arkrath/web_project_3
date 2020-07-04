@@ -1,0 +1,9 @@
+.places__website-link {
+  margin: 0;
+  padding: 0;
+  text-decoration: underline;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  color: white;
+}
