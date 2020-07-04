@@ -1,0 +1,36 @@
+@import url("./__grid-image/gallery__grid-image.css");
+@import url("./__grid/gallery__grid.css");
+
+.gallery {
+max-width: 1184px;
+padding: 0;
+margin: 92px auto 0 auto;
+
+}
+
+
+@media screen and (max-width: 1024px) {
+  .gallery {
+    max-width: 928px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .gallery {
+    max-width: 720px;
+
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .gallery {
+    max-width: 568px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .gallery {
+    margin-top: 64px;
+    max-width: 288px;
+  }
+}

@@ -1,0 +1,45 @@
+@import url("./__metrics-item/intro__metrics-item.css");
+@import url("./__metrics/intro__metrics.css");
+@import url("./__subtitle/intro__subtitle.css");
+@import url("./__text/intro__text.css");
+@import url("./__title/intro__title.css");
+
+.intro {
+max-width: 984px;
+padding: 0;
+margin: 92px auto 0 auto;
+
+}
+
+
+@media screen and (max-width: 1024px) {
+  .intro {
+    max-width: 928px;
+    margin-top: 88px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .intro {
+    max-width: 720px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .intro {
+    margin: 64px 16px 0px 16px;
+
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .intro {
+
+
+  }
+
+}
+
+
+
