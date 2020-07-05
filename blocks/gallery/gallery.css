@@ -4,33 +4,35 @@
 .gallery {
 max-width: 1184px;
 padding: 0;
-margin: 92px auto 0 auto;
+margin: 92px 48px 0 48px;
 
 }
 
 
-@media screen and (max-width: 1024px) {
+/*@media screen and (max-width: 1024px) {
   .gallery {
-    max-width: 928px;
+
   }
 }
+*/
 
 @media screen and (max-width: 768px) {
   .gallery {
-    max-width: 720px;
+    margin: 88px 24px 0;
 
   }
 }
 
 @media screen and (max-width: 600px) {
   .gallery {
-    max-width: 568px;
+    margin-left: 16px;
+    margin-right: 16px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .gallery {
-    margin-top: 64px;
-    max-width: 288px;
+    margin: 64px 24px 0px;
+
   }
 }

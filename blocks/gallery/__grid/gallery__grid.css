@@ -7,3 +7,14 @@
   grid-gap: 16px 16px;
 }
 
+@media screen and (max-width: 1024px) {
+  .gallery__grid {
+    grid-gap: 14px 14px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .gallery__grid {
+    grid-gap: 16px 16px;
+  }
+}
