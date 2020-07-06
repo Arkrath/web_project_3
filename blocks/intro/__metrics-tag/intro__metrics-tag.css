@@ -1,6 +1,5 @@
-@import url("./_theme/intro__metrics-item_theme_bold.css");
 
-.intro__metrics-item {
+.intro__metrics-value {
   margin: 0;
   padding: 0;
   font-style: normal;
@@ -9,3 +8,8 @@
   line-height: 18px;
   color: white;
 }
+
+
+
+
+
